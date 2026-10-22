@@ -1,0 +1,65 @@
+/* One card frame and price layout for the catalog and recommendations. */
+.bella-storefront .bella-catalog-card{display:flex;flex-direction:column;height:100%;min-width:0;overflow:hidden;border:1px solid #e7bed1;border-radius:22px;background:#fff9fc;box-shadow:0 5px 0 #edc9dc5e,0 12px 24px #a945730c}
+.bella-storefront .bella-catalog-card .luxury-product-card__visual{position:relative;flex:none;aspect-ratio:1;height:auto;width:100%;border-radius:0;overflow:hidden;background:#faeaf2}
+.bella-storefront .bella-catalog-card .luxury-product-card__image-link{position:absolute;inset:0;display:block;width:100%;height:100%}
+.bella-storefront .bella-catalog-card .luxury-product-card__image{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover!important;object-position:center;background:#faeaf2}
+.bella-storefront .bella-catalog-card .luxury-product-card__image--alternate{opacity:0}
+.bella-storefront .bella-catalog-card.has-alternate-image:is(:hover,:focus-within) .luxury-product-card__image--alternate{opacity:1}
+.bella-storefront .bella-catalog-card .luxury-product-card__details{display:flex;flex:1;flex-direction:column;align-items:stretch;gap:10px;padding:18px;background:#fff9fc}
+.bella-storefront .bella-catalog-card .luxury-product-card__name{display:block;width:100%;font-size:15px;line-height:1.45}
+.bella-storefront .bella-catalog-card .luxury-product-card__name :is(a,.luxury-product-card__title){display:block;min-height:2.9em;color:#67324f;font:700 15px/1.45 'Trebuchet MS',var(--font-body);white-space:normal;overflow-wrap:anywhere}
+.bella-storefront .bella-catalog-card .luxury-product-card__details>p{align-self:flex-start;margin:0;padding:4px 9px;border:1px solid #ecc8dc;border-radius:999px;background:#fbe8f1;color:#9a426e;font-size:10px;line-height:1.5}
+.bella-storefront .bella-catalog-card__price{margin-top:auto;padding-top:12px;border-top:1px dashed #e8bfd2;color:#9b3669}
+.bella-storefront .bella-catalog-card__price .product-price{display:flex;flex-wrap:wrap;align-items:baseline;gap:5px 10px;max-width:100%;font:600 14px/1.6 var(--font-body)}
+.bella-storefront .bella-catalog-card__price .product-price>del,.bella-storefront .bella-catalog-card__price .product-price>strong{display:block;max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.bella-storefront .bella-catalog-card .luxury-product-card__swatches{min-height:14px;flex-wrap:wrap}
+.bella-storefront .bella-catalog-card .luxury-product-card__actions{top:12px;right:12px;bottom:auto;gap:8px;opacity:1;transform:none}
+.bella-storefront .bella-catalog-card .luxury-product-card__actions button{width:40px;height:40px;min-height:40px;padding:0;border:1px solid #dfb0c7;border-radius:50%;background:#fffafcf2;color:#a34070;box-shadow:0 3px 9px #8d3d6412}
+.bella-storefront .bella-catalog-card .luxury-product-card__actions button>span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.bella-storefront .product-recommendations>header{flex-wrap:wrap;align-items:center;gap:16px}
+.bella-storefront .product-recommendations>header>div:first-child{min-width:0;flex:1 1 240px}
+.bella-storefront .product-recommendations__controls{margin-left:auto;flex:none}
+.bella-storefront .product-recommendations__controls button{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;border-color:#dfb0c7;background:#fff8fc;color:#a34070}
+.bella-storefront .product-recommendations__track{gap:20px;padding:4px 2px 14px;align-items:stretch}
+.bella-storefront .product-recommendations__item{display:flex;flex:0 0 calc((100% - 60px)/4);min-width:0}
+.bella-storefront .product-recommendations__item>.bella-catalog-card{width:100%}
+.bella-storefront .new-arrivals__image-wrap{aspect-ratio:1;height:auto}
+.bella-storefront .new-arrivals__image{object-fit:cover}
+.bella-storefront .new-arrivals__card-copy{min-height:135px}
+.bella-storefront .gloss-club .gloss-club__inner{width:min(calc(100% - 2 * var(--gutter)),1160px)}
+.bella-storefront .gloss-club .gloss-club__card{min-width:0}
+.bella-storefront .gloss-club :is(input,button){max-width:100%}
+.auth-page--premium .auth-google-button{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;min-height:52px;margin:26px 0 0;padding:12px 20px;border:1px solid #dadce0;border-radius:999px;background:#fff;color:#3c4043;font:500 14px/1.5 Arial,sans-serif;box-shadow:0 3px 12px #8d3d6409;transition:box-shadow .2s,border-color .2s}
+.auth-google-button svg{flex:none}
+.auth-page--premium .auth-google-button:hover:not(:disabled){background:#fff;border-color:#bc8ba5;box-shadow:0 4px 16px #8d3d641a}
+.auth-google-button:focus-visible{outline:3px solid #d6a3c0;outline-offset:3px}
+.auth-divider{display:flex;align-items:center;gap:12px;margin:22px 0;color:#897180;font-size:11px;text-align:center}
+.auth-divider:before,.auth-divider:after{content:'';height:1px;background:#e8d8e1;flex:1}
+.auth-callback{max-width:700px;text-align:center;overflow-wrap:anywhere}
+@media(max-width:1100px){.bella-storefront .product-recommendations__item{flex-basis:calc((100% - 40px)/3)}}
+@media(max-width:760px){
+  .bella-storefront .product-recommendations__item{flex-basis:calc((100% - 20px)/2)}
+  .bella-storefront .product-recommendations h2{font-size:clamp(26px,6vw,36px);line-height:1.2}
+  .bella-storefront .bella-catalog-card .luxury-product-card__details{padding:14px;gap:9px}
+  .bella-storefront .bella-catalog-card .luxury-product-card__name :is(a,.luxury-product-card__title){font-size:14px}
+  .bella-storefront .gloss-club .gloss-club__inner{width:100%}
+}
+@media(max-width:600px){
+  .bella-storefront .product-recommendations>header{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
+  .bella-storefront .product-recommendations__item{flex-basis:100%}
+  .bella-storefront .product-recommendations__track{gap:14px;scroll-padding-inline:2px}
+  .bella-storefront .bella-catalog-card{border-radius:18px}
+  .bella-storefront .bella-catalog-card__price .product-price{font-size:13px;gap:5px 8px}
+  .bella-storefront .bella-catalog-card .luxury-product-card__actions{top:10px;right:10px;gap:6px}
+  .bella-storefront .bella-catalog-card .luxury-product-card__actions button{width:36px;height:36px;min-height:36px}
+  .bella-storefront .new-arrivals__price-row{gap:8px}
+  .bella-storefront .new-arrivals__gloss-note{white-space:normal}
+  .auth-page--premium .auth-form{padding:36px 18px}
+  .auth-page--premium .auth-form h1{font-size:clamp(30px,8vw,42px);overflow-wrap:normal}
+  .auth-page--premium .auth-input{font-size:16px}
+}
+@media(max-width:359px){
+  .bella-storefront .bella-catalog-card .luxury-product-card__details{padding:13px}
+  .bella-storefront .new-arrivals__gloss-note{display:none}
+}
+@media(prefers-reduced-motion:reduce){.auth-google-button{transition:none}}

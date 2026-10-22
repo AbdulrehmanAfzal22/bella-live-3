@@ -1,0 +1,63 @@
+/* Final, scoped overrides keep the pink storefront readable across all routes. */
+.bella-storefront .luxury-footer{background:#f7e9ef;color:#493442;padding:0 clamp(20px,5vw,80px) 100px;border-top:1px solid #e5cbd7}
+.bella-storefront .luxury-footer__journal{padding:54px 0 38px;gap:28px 48px;grid-template-columns:minmax(0,1fr) minmax(280px,.85fr);border-color:#dfbdcc}
+.bella-storefront .luxury-footer__journal .eyebrow{color:#8f4a66}.bella-storefront .luxury-footer__journal h2{color:#493442;font-size:clamp(30px,3.2vw,46px);line-height:1.15}
+.bella-storefront .luxury-footer .luxury-footer__journal p,.bella-storefront .luxury-footer .luxury-footer__journal small{color:#705563;line-height:1.7}
+.bella-storefront .luxury-footer__journal>[role=status],.bella-storefront .luxury-footer__journal>[role=alert],.bella-storefront .luxury-footer__journal>small{grid-column:2;font-size:12px}
+.bella-storefront .luxury-footer__signup{display:flex;align-items:center;border:1px solid #d8b7c7;border-radius:9px;background:#fff;padding:5px 5px 5px 16px;gap:8px;min-height:54px}
+.bella-storefront .luxury-footer__signup input{color:#493442;font-size:13px;padding:10px 0;min-width:0}.bella-storefront .luxury-footer__signup input::placeholder{color:#806573}
+.bella-storefront .luxury-footer__signup button{background:#93415f;color:#fff;border-radius:6px;padding:0 18px;min-height:44px;font-weight:600}.bella-storefront .luxury-footer__signup button:hover{background:#763149;color:#fff}
+.bella-storefront .luxury-footer .luxury-footer__columns a,.bella-storefront .luxury-footer .luxury-footer__columns p,.bella-storefront .luxury-footer .luxury-footer__socials a,.bella-storefront .luxury-footer .luxury-footer__socials span{color:#654754;opacity:1}.bella-storefront .luxury-footer .luxury-footer__columns h3{color:#823653;font-weight:600}.bella-storefront .luxury-footer .luxury-footer__columns a:hover{color:#a03760;text-decoration:underline}
+.bella-storefront .luxury-footer__columns{padding:36px 0;gap:32px}.bella-storefront .luxury-footer__legal{border-color:#dfbdcc;color:#705563}
+.bella-storefront .shop-experience{margin-inline:auto}.bella-storefront .shop-layout{gap:28px;grid-template-columns:230px minmax(0,1fr)}.bella-storefront .shop-filter-sidebar{padding:18px;border:1px solid #ead4df;border-radius:12px;background:#fffafc;top:120px}.bella-storefront .shop-filter-sidebar__heading{padding:0 0 18px}.bella-storefront .shop-filter-sidebar__heading h2{font-size:28px}
+.bella-storefront .shop-product-grid{gap:28px 20px}.bella-storefront .luxury-product-card{min-width:0;background:#fff;border:1px solid #ecdce4;border-radius:12px;overflow:hidden;box-shadow:0 5px 20px #7d45620a}.bella-storefront .luxury-product-card__visual{aspect-ratio:1;border-radius:0;overflow:hidden}.bella-storefront .luxury-product-card__image{width:100%;height:100%;object-fit:cover!important;display:block}.bella-storefront .luxury-product-card__details{padding:16px}.bella-storefront .luxury-product-card__name{align-items:start;gap:12px;flex-wrap:wrap}.bella-storefront .luxury-product-card__name :is(a,.luxury-product-card__title){font-size:13px;line-height:1.5;overflow-wrap:anywhere}.bella-storefront .luxury-product-card__name>span{white-space:nowrap;font-size:12px;color:#803b57;font-weight:600}.bella-storefront .luxury-product-card__details>p{font-size:11px;color:#765967}
+.bella-storefront .checkout-experience__layout{gap:32px;grid-template-columns:minmax(0,1fr) minmax(300px,380px)}.bella-storefront .checkout-fields{gap:20px}.bella-storefront .checkout-order-summary{top:120px}.bella-storefront .checkout-section,.bella-storefront .checkout-order-summary{border-radius:12px}.bella-storefront .checkout-field input{border-radius:7px;background:#fff;color:#493442;border:1px solid #dbc3cd}.bella-storefront .checkout-form-experience{min-width:0}.bella-storefront .commerce-primary-button{white-space:normal;line-height:1.5;min-height:54px;padding:14px 18px}.bella-storefront .checkout-order-item{gap:12px}.bella-storefront .checkout-order-item strong{overflow-wrap:anywhere}.bella-storefront .checkout-order-item b{font-size:12px;white-space:nowrap}
+.floating-support-group{position:fixed;right:max(22px,env(safe-area-inset-right));bottom:max(22px,env(safe-area-inset-bottom));z-index:35;display:flex;align-items:center;gap:10px}.floating-support-group .floating-support-button{position:static;right:auto;bottom:auto;min-height:52px;padding:0 18px;background:#fff;color:#8e4162;border-color:#e0b9cb;font-size:10px;letter-spacing:.02em;box-shadow:0 8px 24px #7d45621a}.floating-support-group .floating-support-button:hover{background:#fff3f8;color:#7f3456}.floating-whatsapp-button{display:flex;align-items:center;justify-content:center;gap:8px;background:#167a43;color:#fff;border:1px solid #126938;border-radius:999px;min-height:52px;padding:0 17px;box-shadow:0 8px 24px #176c4429;font:600 11px/1 var(--font-body)}.floating-whatsapp-button:hover{background:#116236;color:#fff}.floating-whatsapp-button:focus-visible{outline:3px solid #83cca4;outline-offset:3px}
+@media(max-width:1100px){.bella-storefront .shop-layout{grid-template-columns:200px minmax(0,1fr);gap:20px}.bella-storefront .shop-product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.bella-storefront .checkout-experience__layout{grid-template-columns:minmax(0,1fr) 320px;gap:24px}}
+@media(max-width:900px){.bella-storefront .shop-layout{grid-template-columns:minmax(0,1fr)}.bella-storefront .shop-filter-sidebar{display:none}.bella-storefront .shop-filter-trigger{display:flex}.bella-storefront .checkout-experience__layout{grid-template-columns:minmax(0,1fr)}.bella-storefront .checkout-order-summary{position:static;order:2}.bella-storefront .luxury-footer__journal{grid-template-columns:1fr;gap:20px}.bella-storefront .luxury-footer__journal>small,.bella-storefront .luxury-footer__journal>[role=status],.bella-storefront .luxury-footer__journal>[role=alert]{grid-column:1}.bella-storefront .luxury-footer__columns{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.bella-storefront .shop-product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 12px}.bella-storefront .luxury-product-card__details{padding:12px}.bella-storefront .luxury-product-card__name{gap:6px}.bella-storefront .luxury-product-card__name :is(a,.luxury-product-card__title){font-size:12px}.bella-storefront .shop-experience{padding-inline:18px}.bella-storefront .luxury-footer__columns{gap:28px 20px}.bella-storefront .luxury-footer__signup{padding-left:12px}.bella-storefront .luxury-footer__signup button{padding-inline:12px}.floating-support-group{right:14px;bottom:max(14px,env(safe-area-inset-bottom));gap:8px}.floating-support-group .floating-support-button{min-height:48px;padding:0 14px;font-size:10px}.floating-whatsapp-button{width:48px;height:48px;min-height:48px;padding:0}.floating-whatsapp-button span{display:none}.bella-storefront .checkout-fields{gap:16px 12px}}
+/* Keep checkout fields and payment choices aligned across shared form styles. */
+.bella-storefront .checkout-section{padding:28px;border:1px solid #e8d4df}
+.bella-storefront .checkout-section__heading h2{font-size:clamp(24px,2.5vw,32px)}
+.bella-storefront .checkout-field{margin:0}
+.bella-storefront .checkout-address-select label,.bella-storefront .checkout-field>span{font-size:12px}
+.bella-storefront .checkout-address-select select,.bella-storefront .checkout-field input{height:48px;min-height:48px;border-radius:7px;font-size:14px}
+.bella-storefront .payment-methods{align-items:stretch}
+.bella-storefront .payment-methods .payment-method-card{display:grid;grid-template-columns:18px minmax(0,1fr) 18px;grid-template-rows:36px auto;align-items:center;gap:8px 12px;padding:16px;min-height:100px;margin:0;border:1px solid #dfcad4}
+.bella-storefront .payment-methods .payment-method-card.is-selected{border-color:#994364;background:#fff5f8;box-shadow:inset 0 0 0 1px #994364}
+.bella-storefront .payment-method-card input{grid-column:1;grid-row:1/3;width:16px;height:16px;min-height:16px;margin:0;padding:0;box-shadow:none}
+.bella-storefront .payment-method-card img{grid-column:2;grid-row:1;width:100%;max-width:112px;height:36px;justify-self:start}
+.bella-storefront .payment-method-card>span{grid-column:2;grid-row:2;margin:0;line-height:1.4}
+.bella-storefront .payment-method-card>svg{grid-column:3;grid-row:1/3;color:#994364}
+.bella-storefront .payment-proof-fields{align-items:start;margin-top:20px}
+.bella-storefront .payment-proof-fields>label{display:grid;grid-template-rows:auto 48px auto;gap:8px;margin:0;min-width:0}
+.bella-storefront .payment-proof-fields input{height:48px;min-width:0;min-height:48px;font-size:14px}
+.bella-storefront .payment-proof-fields>label>span{font-size:12px;line-height:1.5;font-weight:500}
+.bella-storefront .payment-proof-fields small{line-height:1.5}
+.bella-storefront .payment-upload{min-width:0}
+.bella-storefront .payment-upload input{min-width:0;max-width:100%;white-space:normal}
+.admin-content .payment-list-toolbar{flex-wrap:wrap;gap:12px;margin:24px 0;align-items:end}
+.admin-content .payment-list-toolbar .admin-select-field{margin:0;min-width:180px}
+.admin-content .payment-list-toolbar select{min-height:46px;font-size:12px}
+.admin-content .payment-list-toolbar .button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:10px 18px;margin:0;line-height:1.4}
+@media(max-width:600px){.bella-storefront .checkout-section{padding:20px}.bella-storefront .payment-methods .payment-method-card{padding:12px;gap:8px;grid-template-columns:16px minmax(0,1fr) 16px}.bella-storefront .payment-method-card>svg{width:16px}.bella-storefront .payment-proof-fields{grid-template-columns:1fr}.admin-content .payment-list-toolbar .admin-select-field{width:100%}}
+.bella-storefront .luxury-footer .luxury-footer__columns .luxury-footer__contact-button{display:inline-flex;align-items:center;justify-content:center;gap:12px;align-self:start;width:fit-content;min-height:46px;margin-top:4px;padding:12px 18px;border:1px solid #a5446b;border-radius:8px;background:#a5446b;color:#fff;font-size:13px;font-weight:500;line-height:1.4}
+.bella-storefront .luxury-footer .luxury-footer__columns .luxury-footer__contact-button:hover{background:#8e355b;border-color:#8e355b;color:#fff;text-decoration:none}
+.bella-storefront .luxury-footer__contact-button:focus-visible{outline:3px solid #903d60;outline-offset:4px}
+.bella-storefront .support-chat-page .support-chat__input-wrap{margin:0;gap:0}
+.bella-storefront .support-chat-page .support-chat__composer textarea{font-size:16px}
+.bella-storefront .support-chat-page .support-chat__start{background:#a5446b;color:#fff}
+.bella-storefront .support-chat-page .support-chat__start:hover{background:#8e355b;color:#fff}
+.bella-storefront .support-chat-signin{border:1px solid #e8cdd9;border-radius:12px;overflow:hidden}
+@media(max-width:600px){.bella-storefront .support-chat-page__heading{align-items:flex-start;flex-wrap:wrap;gap:12px}.bella-storefront .support-chat-page__heading>p{max-width:none;text-align:left;font-size:12px}.bella-storefront .support-chat-page .support-chat{border:1px solid #e8cdd9;border-radius:10px}}
+.bella-storefront .payment-upload__label{display:flex;flex-direction:row;align-items:center;gap:8px;margin:0;font-size:13px;font-weight:500}
+.bella-storefront .payment-upload__controls{margin-block:12px}
+.bella-storefront .payment-upload__controls input{min-height:48px;width:100%;font-size:13px}
+.bella-storefront .payment-upload__controls input::file-selector-button{padding:11px 15px;margin-right:12px;border:0;border-radius:6px;background:#a5446b;color:#fff;cursor:pointer;font:500 13px/1.4 var(--font-body)}
+.bella-storefront .payment-upload__controls input:disabled::file-selector-button{cursor:wait;opacity:.65}
+.bella-storefront .payment-upload__status p{margin:10px 0 0;font-size:12px;line-height:1.6;overflow-wrap:anywhere}
+.bella-storefront .payment-upload__success{display:flex;align-items:center;gap:8px;color:#256a43}
+.bella-storefront .payment-upload__error{padding:10px 12px;border:1px solid #e5b8c4;border-radius:6px;background:#fff0f1;color:#92354a}
+.bella-storefront .payment-upload-preview{display:block;max-width:100%;margin-top:14px;border-radius:8px;background:#fff}
+.bella-storefront .payment-upload.is-dragging{background:#fae4ee;border:2px dashed #a5446b;box-shadow:0 0 0 3px #a5446b1a}
+.bella-storefront .payment-upload__retry{display:inline-flex;align-items:center;min-height:40px;margin-top:10px;padding:8px 15px;border:1px solid #a5446b;border-radius:6px;background:#fff;color:#903d60;font-size:12px}

@@ -1,0 +1,69 @@
+/* One ribbon of glossy, playful messages — no empty space between copies. */
+.bella-storefront .bella-promo--pookie{background:linear-gradient(100deg,#a12655,#be3c76 46%,#ad2f5a 74%,#d25382);background-size:240% 100%;animation:pookie-pink-shift 12s ease-in-out infinite}
+.bella-storefront .bella-promo--pookie .bella-promo__track{animation-duration:32s;gap:0}
+.bella-storefront .bella-promo--pookie .bella-promo__group{min-width:0;gap:0}
+.bella-storefront .bella-promo--pookie .bella-promo__message{padding:12px 17px;gap:9px;font-size:12px;letter-spacing:.015em;text-transform:none}
+.pookie-emoji{display:inline-block;font-size:19px;line-height:1.2;animation:pookie-wiggle 3.5s ease-in-out infinite}
+.bella-promo__message:nth-child(2) .pookie-emoji{animation-delay:-1.2s}
+.gloss-traits{display:inline-flex;align-items:center;gap:11px;flex-wrap:wrap}
+.gloss-traits__part{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.gloss-traits__dot{margin-right:6px;opacity:.6}
+.gloss-traits__emoji{display:inline-block;font-size:1.2em;animation:pookie-wiggle 4s ease-in-out infinite}
+.gloss-traits__part:nth-child(2) .gloss-traits__emoji{animation-delay:-1s}
+.gloss-traits__part:nth-child(3) .gloss-traits__emoji{animation-delay:-2s}
+.gloss-traits__part:nth-child(4) .gloss-traits__emoji{animation-delay:-3s}
+.bella-promo .gloss-traits{flex-wrap:nowrap;gap:10px}
+.bella-storefront .home-hero.home-hero--slideshow .luxury-hero__title{font-size:clamp(36px,3.75vw,60px);max-width:57%;line-height:1.1;text-wrap:initial;margin-bottom:25px}
+.bella-storefront .home-hero.home-hero--slideshow .luxury-hero__title>span,.bella-storefront .home-hero.home-hero--slideshow .luxury-hero__title>em{display:block;white-space:nowrap}
+.bella-storefront .home-hero.home-hero--slideshow .luxury-hero__title>em{font-size:1.16em;background:linear-gradient(90deg,#a63767,#cc5b91,#a63767);background-size:200% 100%;background-clip:text;-webkit-background-clip:text;color:transparent;animation:pookie-pink-shift 8s ease-in-out infinite}
+.bella-storefront .home-hero .luxury-hero__description{max-width:55%!important;font-size:13px!important}
+.bella-storefront .home-hero .pookie-shop-button{position:relative;display:inline-flex;align-items:center;gap:18px;max-width:100%;min-height:54px;border-radius:999px;padding:16px 27px;background:linear-gradient(110deg,#a13a67,#bc5484);color:#fff;animation:pookie-click-me 2.7s ease-in-out infinite;transform-origin:center;box-shadow:0 8px 25px #a13a6730;overflow:visible;font-size:12px;font-weight:600}
+.bella-storefront .home-hero .pookie-shop-button>span{font-size:20px;animation:pookie-wiggle 3s ease-in-out infinite}
+.bella-storefront .home-hero .pookie-shop-button:hover,.bella-storefront .home-hero .pookie-shop-button:focus-visible{animation-play-state:paused;background:#94365f;outline-offset:5px}
+.bella-storefront .home-hero .pookie-shop-button:after{display:none}
+.pookie-atmosphere{position:fixed;inset:0;z-index:20;pointer-events:none;overflow:hidden;contain:layout paint style}
+.pookie-atmosphere__charm{position:absolute;pointer-events:none;opacity:.72;filter:drop-shadow(0 4px 8px #ad407a20);animation:pookie-float 7s ease-in-out infinite;animation-delay:var(--charm-delay)}
+.pookie-atmosphere[data-paused=true] *{animation-play-state:paused}
+.bella-storefront .why-bella{background-image:linear-gradient(110deg,#f5bdd9,#f9d2e9 35%,#edc4f0 65%,#f4b4d1);animation-duration:10s}
+.bella-storefront .why-bella__wave-layer--0{animation-duration:12s}
+.bella-storefront .why-bella__wave-layer--1{animation-duration:9s}
+.bella-storefront :is(.home-collections__section-title,.home-products__heading,.reels-showcase__heading){position:relative}
+.bella-storefront :is(.home-collections__section-title,.home-products__heading,.reels-showcase__heading):after{content:'🎀';position:absolute;right:0;top:-24px;font-size:26px;pointer-events:none;animation:pookie-float 5s ease-in-out infinite;opacity:.8}
+.bella-storefront :is(.luxury-product-card,.product-card){transition:box-shadow .35s ease,border-color .35s ease}
+@media(hover:hover){.bella-storefront :is(.luxury-product-card,.product-card):hover{border-color:#d785ad;box-shadow:0 12px 30px #b23d7629}.bella-storefront :is(.luxury-product-card__actions button,.new-arrivals__actions button):hover{background:#fce0ed;box-shadow:0 0 0 5px #efd0df77}.bella-storefront :is(.home-products__more .button,.love-gallery__copy>a):hover{transform:translateY(-3px) rotate(-1deg);box-shadow:0 9px 25px #a13a6730}}
+.bella-storefront .home-journal.gloss-club{position:relative;overflow:hidden;isolation:isolate;padding:80px 24px 90px;background:radial-gradient(ellipse at 15% 25%,#fff7fc 0,transparent 45%),linear-gradient(115deg,#f8d1e5,#f4c3db 42%,#f1d7f2 75%,#f5bdd6);background-size:100% 100%,240% 240%;animation:pookie-pink-shift 16s ease-in-out infinite;border-block:1px solid #e5b1ca}
+.gloss-club__inner{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) minmax(330px,480px);gap:clamp(38px,6vw,90px);align-items:center;width:min(100%,1160px);margin:auto}
+.gloss-club__copy{min-width:0}
+.gloss-club__sticker{display:inline-flex;align-items:center;gap:8px;padding:8px 15px;background:#fff6fc;border:1px solid #dca1bf;border-radius:999px;transform:rotate(-4deg);color:#8f3159;font:600 12px/1.4 var(--font-body);box-shadow:4px 5px 0 #d79ab344}
+.gloss-club__copy h2{margin:30px 0 24px;color:#5d2a45;font-family:'Trebuchet MS',var(--font-body);font-size:clamp(42px,5vw,66px);font-weight:800;letter-spacing:-.06em;line-height:1.05}
+.gloss-club__copy h2 em{font-family:Georgia,serif;font-weight:400;color:#ad3d75;letter-spacing:-.04em}
+.gloss-club__copy>p{max-width:410px;color:#714f65;font-size:14px;line-height:1.85;margin:0 0 24px}
+.gloss-club__perks{display:flex;flex-wrap:wrap;gap:10px}
+.gloss-club__perks>span{display:inline-flex;align-items:center;gap:7px;padding:9px 13px;background:#fff5fba6;border:1px solid #e2afc8;border-radius:999px;color:#8a3d61;font-size:11px}
+.gloss-club__card{position:relative;min-width:0;background:#fff8fc;border:2px solid #e8adc9;border-radius:26px;padding:40px 32px 30px;box-shadow:10px 12px 0 #d994b63d,0 20px 45px #9d3e6c12;transform:rotate(1deg)}
+.gloss-club__mail{position:absolute;right:26px;top:-32px;font-size:60px;filter:drop-shadow(0 5px 5px #c0659620);animation:pookie-float 5s ease-in-out infinite}
+.gloss-club__card h3{margin:0 0 11px;font:700 25px/1.3 'Trebuchet MS',var(--font-body);letter-spacing:-.035em;color:#6b2a4a}
+.gloss-club__card>p{color:#836079;font-size:13px;line-height:1.7;margin:0 0 24px}
+.gloss-club__card form{display:grid;gap:15px;margin-top:24px}
+.gloss-club__card .me-field-label{font-size:11px;font-weight:600;color:#8e4b6d;margin:0 0 8px}
+.gloss-club__card .gloss-club__input{height:52px;border:1px solid #deb0c9;border-radius:12px;background:#fff;color:#5d2a45;font-size:14px;padding:13px 16px}
+.gloss-club__input:focus{outline:3px solid #ecc2df;outline-offset:2px;border-color:#aa4678}
+.gloss-club__input::placeholder{color:#947b8e}
+.gloss-club__submit{display:flex;align-items:center;justify-content:center;gap:13px;min-height:52px;border:0;border-radius:999px;background:linear-gradient(110deg,#a63b70,#c2568d);color:#fff;font:600 14px/1.5 var(--font-body);box-shadow:0 6px 16px #b2417430;transition:transform .25s ease,box-shadow .25s ease}
+.gloss-club__submit:not(:disabled):hover{transform:translateY(-2px);box-shadow:0 9px 22px #b2417440}
+.gloss-club__submit:disabled{opacity:.65;cursor:wait}
+.gloss-club__submit>span{font-size:20px;animation:pookie-wiggle 3s ease-in-out infinite}
+.gloss-club__card>p.gloss-club__privacy{font-size:11px;margin:17px 0 0;color:#826176}
+.gloss-club__card>p.gloss-club__success{padding:12px;border-radius:9px;background:#f1f8ed;color:#386546;margin:18px 0 0}
+.gloss-club__card>p.gloss-club__error{padding:12px;border-radius:9px;background:#fff0f3;color:#963e58;margin:18px 0 0}
+.gloss-club__float{position:absolute;z-index:0;pointer-events:none;animation:pookie-float 6s ease-in-out infinite;opacity:.8}
+.gloss-club__float--bow{left:3%;top:14%;font-size:48px;animation-delay:-1s}
+.gloss-club__float--cherry{left:44%;bottom:12%;font-size:44px;animation-delay:-3s}
+.gloss-club__float--heart{right:3%;bottom:12%;font-size:35px;animation-delay:-2s}
+@keyframes pookie-wiggle{0%,100%{transform:rotate(-7deg) scale(1)}50%{transform:rotate(9deg) scale(1.13)}}
+@keyframes pookie-float{0%,100%{transform:translateY(0) rotate(-8deg)}50%{transform:translateY(-18px) rotate(9deg)}}
+@keyframes pookie-click-me{0%,100%{transform:scale(1) rotate(0);box-shadow:0 8px 25px #a13a6730,0 0 0 0 #d880aa33}50%{transform:scale(1.045) rotate(-.7deg);box-shadow:0 12px 30px #a13a6745,0 0 0 12px #d880aa00}}
+@keyframes pookie-pink-shift{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+@media(max-width:900px){.gloss-club__inner{gap:35px;grid-template-columns:minmax(0,1fr) minmax(300px,1fr)}.gloss-club__card{padding:36px 24px 26px}.gloss-club__copy h2{font-size:48px}}
+@media(max-width:700px){.bella-storefront .bella-promo--pookie .bella-promo__message{font-size:11px;padding:11px 13px;gap:7px}.pookie-emoji{font-size:17px}.bella-promo .gloss-traits{gap:7px}.bella-storefront .home-hero.home-hero--slideshow .luxury-hero__title{max-width:100%;font-size:clamp(27px,7.4vw,46px);margin-bottom:22px}.bella-storefront .home-hero .luxury-hero__description{max-width:100%!important}.gloss-traits{gap:8px}.gloss-traits__dot{margin-right:3px}.pookie-atmosphere__charm{font-size:17px!important;opacity:.6}.pookie-atmosphere__charm:nth-child(n+5){display:none}.pookie-atmosphere__charm:nth-child(even){left:auto!important;right:1%}.bella-storefront .home-journal.gloss-club{padding:50px 22px 66px}.gloss-club__inner{grid-template-columns:minmax(0,1fr);gap:44px}.gloss-club__copy{padding-inline:7px;text-align:center}.gloss-club__copy h2{font-size:48px}.gloss-club__copy>p{margin-inline:auto;font-size:13px}.gloss-club__perks{justify-content:center;gap:7px}.gloss-club__perks>span{font-size:10px;padding:8px 10px}.gloss-club__card{transform:none;padding:40px 23px 26px;border-radius:22px}.gloss-club__card h3{font-size:23px}.gloss-club__float--bow{left:0;top:5%;font-size:34px}.gloss-club__float--cherry{left:0;bottom:2%;font-size:30px}.gloss-club__float--heart{right:1%;bottom:1%;font-size:26px}.bella-storefront :is(.home-collections__section-title,.home-products__heading,.reels-showcase__heading):after{font-size:20px;top:-18px}}
+@media(prefers-reduced-motion:reduce){.bella-storefront .bella-promo--pookie,.bella-storefront .home-hero.home-hero--slideshow .luxury-hero__title>em,.bella-storefront .home-hero .pookie-shop-button,.bella-storefront .home-journal.gloss-club,.pookie-emoji,.gloss-traits__emoji,.gloss-club__mail,.gloss-club__float,.gloss-club__submit>span,.bella-storefront :is(.home-collections__section-title,.home-products__heading,.reels-showcase__heading):after{animation:none}.pookie-atmosphere{display:none}.bella-storefront .bella-promo--pookie .bella-promo__track{animation:none}.bella-storefront .bella-promo--pookie .bella-promo__group{display:flex;flex-direction:column;width:100%}.bella-storefront .bella-promo--pookie .bella-promo__group:nth-child(2){display:none}.bella-storefront .bella-promo--pookie .bella-promo__message{display:flex;white-space:normal;width:100%;padding-block:6px}.gloss-club__submit{transition:none}}

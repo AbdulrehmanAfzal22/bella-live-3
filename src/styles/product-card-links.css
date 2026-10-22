@@ -1,0 +1,6 @@
+/* One native link covers each product card; quick actions remain separate buttons. */
+.bella-storefront :is(.bella-catalog-card,.new-arrivals__card){position:relative}
+.bella-storefront .product-card__link{display:flex;flex:1;flex-direction:column;min-width:0;color:inherit;text-decoration:none;border-radius:inherit;cursor:pointer}
+.bella-storefront .product-card__link:focus-visible{outline:3px solid #a5446b;outline-offset:-3px}
+.bella-storefront .bella-catalog-card>.luxury-product-card__actions,
+.bella-storefront .new-arrivals__card>.new-arrivals__actions{z-index:3}

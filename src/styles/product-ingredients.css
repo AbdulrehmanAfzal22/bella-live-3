@@ -1,0 +1,12 @@
+.product-accordion details.product-ingredients{position:relative;margin:12px 0!important;padding:0 20px!important;border:1px solid #f1bfd0!important;border-radius:22px;background:linear-gradient(135deg,#fff5f9,#fffafd 60%,#fff0f6);box-shadow:0 8px 28px #be48780b;overflow:hidden}
+.product-accordion .product-ingredients summary{min-height:62px;color:#973957;font-size:15px;font-weight:600;cursor:pointer}
+.product-ingredients summary>span{display:flex;align-items:center;gap:10px}
+.product-ingredients__bow{display:inline-block;font-size:21px;animation:ingredient-bow 5s ease-in-out infinite}
+.product-ingredients__body{padding:0 0 20px}
+.product-ingredients__label{display:inline-block;margin-bottom:12px;padding:5px 10px;border:1px solid #f1cbd9;border-radius:999px;background:#fff;color:#a74469;font:600 10px/1.4 var(--font-body);letter-spacing:.06em}
+.product-ingredients__body .product-ingredients__text{margin:0;padding:16px 18px;border:1px solid #f5dce6;border-radius:15px;background:#ffffffb3;color:#65404e;font:400 13px/1.9 var(--font-body);white-space:pre-wrap;overflow-wrap:anywhere;text-align:left}
+.product-ingredients__body .product-ingredients__empty{margin:0;color:#765061;font:400 12px/1.8 var(--font-body)}
+.product-ingredients summary:focus-visible{outline:2px solid #bd4b76;outline-offset:3px;border-radius:12px}
+@keyframes ingredient-bow{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+@media(max-width:400px){.product-accordion details.product-ingredients{padding-inline:15px!important}.product-ingredients__body .product-ingredients__text{padding:13px}}
+@media(prefers-reduced-motion:reduce){.product-ingredients__bow{animation:none}}

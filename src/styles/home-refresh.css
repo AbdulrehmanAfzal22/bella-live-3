@@ -1,0 +1,70 @@
+/* Bella's glossy edit: clear colour, gentle waves, and a photo-led gallery. */
+.bella-promo{position:relative;z-index:55;overflow:hidden;background:#a32e4c;color:#fff;isolation:isolate}
+.bella-promo__link{display:block;color:#fff;overflow:hidden;text-decoration:none}
+.bella-promo__track{display:flex;width:max-content;animation:bella-promo-scroll 34s linear infinite;will-change:transform}
+.bella-promo__group{display:flex;align-items:center;flex:none;min-width:100vw}
+.bella-promo__message{display:flex;align-items:center;justify-content:center;gap:18px;flex:none;padding:13px 42px;font:600 13px/1.4 var(--font-body);letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}
+.bella-promo__message svg{flex:none;color:#ffd7e3}
+.bella-promo__link:focus-visible{outline:3px solid #fff;outline-offset:-4px}
+.bella-promo--delivery{z-index:1;background:linear-gradient(110deg,#a32e4c,#ba4163 50%,#8d2443)}
+.bella-promo--delivery .bella-promo__track{animation-duration:42s}
+.bella-promo--delivery .bella-promo__message{font-size:12px;letter-spacing:.025em;text-transform:none;padding-block:14px}
+.bella-promo__sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@keyframes bella-promo-scroll{to{transform:translateX(-50%)}}
+.bella-storefront .home-hero.home-hero--slideshow .luxury-hero__title{max-width:56%;font-size:clamp(44px,4.9vw,74px);line-height:1.08;text-wrap:balance}
+.bella-storefront .home-hero.home-hero--slideshow .luxury-hero__title em{display:block}
+.bella-storefront .home-hero.home-hero--slideshow .luxury-hero__description{font-size:14px;letter-spacing:.025em;max-width:46%;line-height:1.8}
+.why-bella{position:relative;isolation:isolate;overflow:hidden;padding:80px 24px 88px;background:linear-gradient(115deg,#f5c9dc,#f4d6ea 36%,#f9d0d9 64%,#efb5d0);background-size:240% 240%;animation:why-bella-colour 15s ease-in-out infinite;color:#493442;text-align:center}
+.why-bella__copy{position:relative;z-index:2;max-width:850px;margin:auto}
+.why-bella__eyebrow{margin:0 0 13px;color:#8f3a5c;font:600 10px/1.5 var(--font-body);letter-spacing:.18em;text-transform:uppercase}
+.why-bella h2{margin:0 0 22px;font-family:'Trebuchet MS',var(--font-body);font-weight:800;font-size:clamp(29px,3.3vw,45px);letter-spacing:-.055em;line-height:1.18;color:#56273f}
+.why-bella__copy>p:not(.why-bella__eyebrow){max-width:760px;margin:0 auto;color:#604454;font:400 15px/1.9 var(--font-body)}
+.why-bella__copy>p.why-bella__signature{margin-top:24px;font-weight:600;color:#913658;letter-spacing:.015em}
+.why-bella__wave{position:absolute;top:-1px;left:0;width:100%;height:64px;overflow:hidden;z-index:1;transform:rotate(180deg);pointer-events:none}
+.why-bella__wave--bottom{top:auto;bottom:-1px;transform:none}
+.why-bella__wave-layer{position:absolute;bottom:0;left:0;width:200%;height:100%;animation:why-bella-wave 14s linear infinite;fill:#fff8f3}
+.why-bella__wave-layer--0{opacity:.55;height:87%;animation-duration:18s;animation-direction:reverse}
+.why-bella__wave-layer--1{opacity:.78;animation-delay:-7s}
+@keyframes why-bella-wave{to{transform:translateX(-50%)}}
+@keyframes why-bella-colour{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.love-gallery{display:grid;grid-template-columns:minmax(270px,330px) minmax(0,1fr);margin:24px 0 54px;background:#f3c9dc;border-block:1px solid #e6b3c9;color:#493442}
+.love-gallery__copy{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:38px clamp(24px,3vw,48px);background:linear-gradient(135deg,#f4cede,#f9dce7)}
+.love-gallery__eyebrow{margin:0 0 15px;font:600 9px/1.5 var(--font-body);letter-spacing:.18em;text-transform:uppercase;color:#944462}
+.love-gallery__copy h2{margin:0 0 19px;font-family:'Trebuchet MS',var(--font-body);font-size:clamp(28px,2.6vw,38px);font-weight:800;letter-spacing:-.045em;line-height:1.15;color:#56273f}
+.love-gallery__copy>p:not(.love-gallery__eyebrow){margin:0 0 13px;font:400 13px/1.8 var(--font-body);color:#654254}
+.love-gallery__copy .love-gallery__features{color:#8c385a;font-size:12px;letter-spacing:.025em}
+.love-gallery__copy>a{display:inline-flex;align-items:center;gap:10px;margin-top:15px;padding:13px 19px;border-radius:999px;background:#a32e4c;color:#fff;font:600 12px/1.4 var(--font-body)}
+.love-gallery__copy>a:hover{background:#84243e}
+.love-gallery__copy>a:focus-visible{outline:3px solid #913658;outline-offset:4px}
+.love-gallery__viewport{min-width:0;overflow:hidden;position:relative;user-select:none;touch-action:pan-y;background:#fff6f9;min-height:340px}
+.love-gallery__track{display:flex;width:100%;height:100%;will-change:transform;pointer-events:none}
+.love-gallery__photo{position:relative;flex:none;min-width:0;margin:0;height:clamp(340px,32vw,440px);overflow:hidden;background:#f9edf3}
+.love-gallery__photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none}
+.love-gallery__photo figcaption{position:absolute;inset:auto 0 0;margin:0;padding:45px 16px 18px;background:linear-gradient(0deg,#4b213de6,transparent);color:#fff;font:500 12px/1.5 var(--font-body);text-align:center;overflow-wrap:anywhere}
+.love-gallery__loading{display:grid;place-items:center;height:100%;min-height:340px;color:#8e4162;font-size:13px}
+.love-admin__upload{text-align:center;padding:32px;border:2px dashed #d9adc2;border-radius:12px;background:#fff7fb}
+.love-admin__upload>svg{color:#a5446b}
+.love-admin__upload h2{font-size:25px;margin:12px 0}
+.love-admin__upload p{font-size:13px;line-height:1.7}
+.love-admin__upload.is-dragging{border-color:#a5446b;background:#f9e2ee}
+.love-admin__file{display:flex!important;flex-direction:row;justify-content:center;align-items:center;gap:9px;margin:18px auto!important;width:fit-content;max-width:100%;padding:12px 16px;background:#a5446b;color:#fff!important;border-radius:7px;font-size:13px!important;position:relative;overflow:hidden;cursor:pointer}
+.love-admin__file input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}
+.love-admin__file:focus-within{outline:3px solid #913658;outline-offset:4px}
+.love-admin__file:has(input:disabled){opacity:.6;cursor:wait}
+.love-admin__progress{min-height:22px;color:#8c385a}
+.love-admin__errors{padding:16px 24px;text-align:left;color:#96344c;background:#fff0f3;border:1px solid #e5b8c4;border-radius:8px;font-size:12px}
+.love-admin__hint{font-size:12px;line-height:1.8;color:#765967;margin:20px 0}
+.love-admin__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.love-admin__card{min-width:0;padding:18px;overflow:hidden;border-radius:10px}
+.love-admin__card>img{display:block;width:100%;height:220px;object-fit:contain;background:#fff3f8;border-radius:6px}
+.love-admin__card label{display:grid;gap:7px;font-size:11px;margin:14px 0;color:#624354}
+.love-admin__card input{min-width:0;font-size:12px!important;min-height:42px!important}
+.love-admin__row{display:grid;grid-template-columns:100px minmax(0,1fr);gap:14px;align-items:center}
+.love-admin__row label.check{display:flex;font-size:11px;line-height:1.5}
+.love-admin__row label.check input{width:16px;min-height:16px!important;height:16px;flex:none}
+.love-admin__actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+.love-admin__actions button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:42px;padding:10px 14px;font-size:11px}
+@media(max-width:1100px){.love-admin__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:800px){.love-gallery{grid-template-columns:minmax(0,1fr);margin-bottom:35px}.love-gallery__copy{padding:30px 24px;align-items:center;text-align:center}.love-gallery__copy h2{margin-bottom:13px}.love-gallery__copy .love-gallery__features br{display:none}.love-gallery__copy>a{margin-top:7px}.love-gallery__photo{height:330px}.why-bella{padding-block:70px 75px}}
+@media(max-width:700px){.bella-storefront .home-hero.home-hero--slideshow .luxury-hero__title{max-width:100%;font-size:clamp(40px,10vw,58px)}.bella-storefront .home-hero.home-hero--slideshow .luxury-hero__description{max-width:100%;font-size:12px}.bella-promo__message{font-size:11px;padding:12px 26px;gap:14px}.bella-promo--delivery .bella-promo__message{font-size:11px}.why-bella h2{font-size:29px}.why-bella__copy>p:not(.why-bella__eyebrow){font-size:13px;line-height:1.85}.why-bella__wave{height:45px}.why-bella__copy>p.why-bella__signature{font-size:12px}.love-gallery__photo{height:280px}.love-admin__grid{grid-template-columns:1fr}.love-admin__upload{padding:24px 18px}.love-gallery__copy .love-gallery__features br{display:block}}
+@media(prefers-reduced-motion:reduce){.bella-promo__track,.why-bella,.why-bella__wave-layer{animation:none}.bella-promo__group{min-width:0}.bella-promo__group:nth-child(2),.bella-promo__message:not(:first-child){display:none}.bella-promo__track{width:100%}.bella-promo__message{white-space:normal;width:100%;text-align:center}.bella-promo__group{width:100%}.love-gallery__track{will-change:auto}}

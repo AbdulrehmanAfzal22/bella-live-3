@@ -1,0 +1,19 @@
+/* One full-width product per row on phones, including collection pages. */
+@media(max-width:767px){
+  .bella-storefront :is(.product-grid,.product-grid.four,.shop-product-grid,.luxury-product-grid,.home-products .shop-product-grid){
+    display:grid!important;
+    grid-template-columns:minmax(0,1fr)!important;
+    gap:24px;
+    width:100%;
+    max-width:100%;
+    min-width:0;
+  }
+  .bella-storefront :is(.product-grid,.shop-product-grid,.luxury-product-grid)>*{min-width:0;max-width:100%}
+  .bella-storefront .bella-catalog-card{width:100%;min-width:0}
+  .bella-storefront .bella-catalog-card .luxury-product-card__name :is(a,.luxury-product-card__title){white-space:normal;overflow-wrap:break-word;word-break:normal}
+  .bella-storefront .bella-catalog-card__price .product-price>:is(del,strong){white-space:nowrap;overflow-wrap:normal;word-break:normal}
+  .bella-storefront .product-recommendations__item{flex-basis:100%}
+}
+@media(min-width:768px) and (max-width:1023px){
+  .bella-storefront .category-collection-page .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}

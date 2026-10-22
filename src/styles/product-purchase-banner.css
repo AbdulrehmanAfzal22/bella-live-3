@@ -1,0 +1,13 @@
+.product-purchase-banner{display:flex;align-items:center;gap:9px;min-width:0;width:100%;margin:0;padding:10px 11px;border:2px dashed #ba8cbd;border-radius:13px;background:linear-gradient(110deg,#fbe0eb,#f4cede);color:#65334e;font:500 11px/1.5 var(--font-body);letter-spacing:0;box-sizing:border-box}
+.product-purchase-banner__shoppers{display:flex;align-items:center;flex:none;padding-right:2px}
+.product-purchase-banner__shoppers>span{display:grid;place-items:center;width:32px;height:32px;border:2px solid #fff;border-radius:50%;background:#edb4ce;color:#8b3b67}
+.product-purchase-banner__shoppers>span+span{margin-left:-9px;background:#efc4df}
+.product-purchase-banner__text{min-width:0;overflow-wrap:anywhere}
+.product-purchase-banner__text strong{font-weight:650;line-height:1.4}
+.product-purchase-banner__more{display:block;font-size:.92em;line-height:1.5;margin-top:2px}
+.bella-storefront .product-info>.product-purchase-banner{margin:0 0 20px;padding:12px 15px;font-size:13px;max-width:100%}
+.bella-storefront .new-arrivals__card .product-purchase-banner{margin:0 10px 11px;width:calc(100% - 20px)}
+@media(max-width:480px){.product-purchase-banner{gap:6px;padding:8px;font-size:10px}.product-purchase-banner__shoppers>span{width:27px;height:27px}.bella-storefront .product-info>.product-purchase-banner{font-size:12px}}
+
+.product-purchase-banner__shoppers>span{overflow:hidden;flex:none}
+.product-purchase-banner__shoppers img{display:block;width:100%;height:100%;object-fit:cover;border-radius:50%}

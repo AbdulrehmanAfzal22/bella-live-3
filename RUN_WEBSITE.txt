@@ -1,0 +1,14 @@
+BELLA COMPLETE UPDATED PROJECT
+
+All source code, original public assets and package.json are included in this folder.
+
+Includes clickable product cards, sign-in before cart, the US import banner with flag, product purchase-count banners, one product per row on mobile, and illustrated shopper avatars.
+
+1. Extract the ZIP.
+2. Open this extracted folder in Terminal (the folder containing package.json).
+3. Run: npm install
+4. Run: npm run dev
+
+For deployment run npm run build, then use your existing hosting configuration.
+
+The purchase-count database setup is already applied to Bellabyrt. See PURCHASE_BANNER_UPDATE.md for details.

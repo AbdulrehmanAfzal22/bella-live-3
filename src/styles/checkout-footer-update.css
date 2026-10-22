@@ -1,0 +1,37 @@
+/* Keep the collection link and carousel arrows together at the right edge. */
+.bella-storefront .new-arrivals__heading-actions{display:flex;align-items:center;justify-content:flex-end;gap:18px;margin-left:auto;min-width:0;max-width:100%;flex-wrap:wrap}
+.bella-storefront .new-arrivals__heading-actions .luxury-text-link{margin-left:0}
+.bella-storefront .new-arrivals__controls{flex:none}
+.bella-storefront .new-arrivals__arrow{width:44px;height:44px}
+.bella-storefront .checkout-payment-choice{margin-top:24px}
+.checkout-payment-choice__options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0;padding:0;border:0}
+.bella-storefront .checkout-payment-choice__option{display:grid;grid-template-columns:18px 24px minmax(0,1fr);align-items:center;gap:10px;margin:0;padding:18px 14px;border:1px solid #dec0d1;border-radius:14px;background:#fffafc;color:#7c3d5b;cursor:pointer;min-width:0}
+.bella-storefront .checkout-payment-choice__option.is-selected{border-color:#ab4777;background:#fff0f7;box-shadow:inset 0 0 0 1px #ab4777}
+.bella-storefront .checkout-payment-choice__option input{width:16px;height:16px;min-height:16px;margin:0;padding:0;accent-color:#a5446b}
+.checkout-payment-choice__option>span{display:grid;min-width:0;gap:6px}
+.checkout-payment-choice__option strong{font:600 13px/1.5 var(--font-body)}
+.checkout-payment-choice__option small{font:400 11px/1.6 var(--font-body);color:#816277}
+.checkout-payment-choice__option:focus-within{outline:2px solid #a5446b;outline-offset:3px}
+.checkout-cod-details{margin-top:20px;padding:18px;border:1px dashed #d9a7c0;border-radius:14px;background:#fff8fc}
+.checkout-cod-details p{font:400 13px/1.8 var(--font-body);color:#684555}
+.checkout-cod-details small{display:block;margin-top:10px;font:400 11px/1.7 var(--font-body);color:#816277}
+.bella-storefront .checkout-cod-details .checkout-field input{font-size:16px}
+/* Layered waves meet the footer's solid top colour, without a straight border. */
+.bella-storefront .home-footer,.bella-storefront .luxury-footer{position:relative;margin-top:80px;border-top:0;background-color:#f4c0d5;background-image:linear-gradient(180deg,#f4c0d5,#f8dce8);color:#493442}
+.bella-footer-waves{position:absolute;left:0;right:0;top:-79px;width:100%;height:80px;overflow:hidden;pointer-events:none}
+.bella-footer-waves svg{display:block;width:100%;height:100%}
+.bella-footer-waves__back{fill:#edd4e2;animation:footer-wave-sway 7s ease-in-out infinite}
+.bella-footer-waves__middle{fill:#e9a9c6;animation:footer-wave-sway 9s ease-in-out infinite reverse}
+.bella-footer-waves__front{fill:#f4c0d5}
+.bella-storefront .home-footer__inner{padding-top:40px}
+.bella-storefront .luxury-footer__journal{padding-top:38px}
+@keyframes footer-wave-sway{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}
+@media(max-width:600px){
+  .bella-storefront .new-arrivals__heading-actions{gap:12px;justify-content:flex-end;width:100%}
+  .checkout-payment-choice__options{grid-template-columns:minmax(0,1fr)}
+  .bella-storefront .checkout-payment-choice__option{padding:16px}
+  .bella-storefront .home-footer,.bella-storefront .luxury-footer{margin-top:54px}
+  .bella-footer-waves{top:-53px;height:54px}
+  .checkout-cod-details{padding:15px}
+}
+@media(prefers-reduced-motion:reduce){.bella-footer-waves__back,.bella-footer-waves__middle{animation:none}}

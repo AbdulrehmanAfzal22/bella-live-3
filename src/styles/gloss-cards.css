@@ -1,0 +1,42 @@
+/* Clear product photos, pretty paper edges, and lively section titles. */
+.bella-storefront .new-arrivals__track{align-items:stretch;padding:8px 3px 20px;gap:22px}
+.bella-storefront .new-arrivals__card{display:flex;flex-direction:column;overflow:hidden;border:1px solid #e4b3ce;border-radius:23px;background:#fff9fc;box-shadow:0 7px 0 #e8bfd45e,0 14px 30px #a9457312;transition:border-color .3s ease,box-shadow .3s ease}
+.bella-storefront .new-arrivals__card-shell{position:relative;flex:1;padding:10px 10px 0;background:#fff9fc;isolation:isolate}
+.bella-storefront .new-arrivals__image-link{display:block;border-radius:15px;overflow:visible;background:transparent;color:#67324f}
+.bella-storefront .new-arrivals__image-wrap{height:auto;aspect-ratio:1;border:1px solid #f0d5e3;border-radius:15px;background:linear-gradient(145deg,#fff6fa,#f9e7f1);overflow:hidden}
+.bella-storefront .new-arrivals__image{object-fit:contain;object-position:center;filter:none;opacity:1;transform:none;background:#fff7fb}
+.bella-storefront .new-arrivals__image--secondary{opacity:0}
+.bella-storefront .new-arrivals__card:hover .new-arrivals__image:not(.new-arrivals__image--secondary),.bella-storefront .new-arrivals__card:focus-within .new-arrivals__image:not(.new-arrivals__image--secondary){opacity:1;filter:none;transform:scale(1.025)}
+.bella-storefront .new-arrivals__card.has-secondary-image:hover .new-arrivals__image:not(.new-arrivals__image--secondary),.bella-storefront .new-arrivals__card.has-secondary-image:focus-within .new-arrivals__image:not(.new-arrivals__image--secondary){opacity:0}
+.bella-storefront .new-arrivals__card.has-secondary-image:hover .new-arrivals__image--secondary,.bella-storefront .new-arrivals__card.has-secondary-image:focus-within .new-arrivals__image--secondary{opacity:1;filter:none;transform:scale(1.025)}
+.bella-storefront .new-arrivals__card-overlay{display:none}
+.bella-storefront .new-arrivals__card-copy{position:static;inset:auto;display:flex;align-items:flex-start;padding:16px 8px 17px;min-height:136px}
+.bella-storefront .new-arrivals__category{display:inline-flex;padding:5px 10px;border:1px solid #ecd0e1;border-radius:999px;background:#fbe5f1;color:#a14272;font:600 9px/1.4 var(--font-body);letter-spacing:.09em}
+.bella-storefront .new-arrivals__card-copy h3{max-width:100%;margin:11px 0 0;color:#67324f;font:700 17px/1.35 'Trebuchet MS',var(--font-body);letter-spacing:-.02em;overflow-wrap:anywhere}
+.bella-storefront .new-arrivals__explore{opacity:1;transform:none;margin-top:12px;color:#ac4279;font-size:10px;letter-spacing:.035em;text-transform:none;gap:6px}
+.bella-storefront .new-arrivals__actions{top:20px;right:20px;gap:8px;opacity:1;transform:none}
+.bella-storefront .new-arrivals__actions button{width:36px;height:36px;min-height:36px;background:#fff9fcf5;border:1px solid #dfaccb;color:#a53d72;box-shadow:0 3px 9px #96396612}
+.bella-storefront .new-arrivals__actions button:hover{background:#fce3f1;color:#8e2f60;transform:scale(1.08)}
+.new-arrivals__bow{position:absolute;left:20px;top:17px;z-index:3;pointer-events:none;font-size:29px;filter:drop-shadow(0 3px 4px #97326622);animation:pookie-wiggle 4s ease-in-out infinite}
+.bella-storefront .new-arrivals__price-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:13px 18px;border-top:1px dashed #e5b5cf;background:linear-gradient(100deg,#fff8fc,#fcebf4);color:#9b366a;font-size:13px;letter-spacing:0}
+.new-arrivals__gloss-note{display:inline-flex;align-items:center;gap:5px;font-size:9px;white-space:nowrap;color:#ac7291}
+.bella-storefront .new-arrivals__price-row>span:first-child{min-width:0;flex:1}
+.bella-storefront .new-arrivals__price-row .product-price{max-width:100%}
+@media(hover:hover){.bella-storefront .new-arrivals__card:hover{border-color:#d882b2;box-shadow:0 7px 0 #e8bfd47a,0 18px 38px #a9457325}.bella-storefront .new-arrivals__card:hover .new-arrivals__explore{gap:10px}}
+.bella-storefront :is(#home-collections-title,#new-arrivals-title,#home-products-title,#reels-showcase-title,#why-bella-title,#love-gallery-title,.shop-header h1){position:relative;display:inline-block;max-width:100%;padding:0 38px 18px 0;margin:0;color:#993762;font-family:'Trebuchet MS',var(--font-body);font-size:clamp(30px,3.7vw,48px);font-weight:800;letter-spacing:-.045em;line-height:1.15;text-shadow:0 2px 0 #fff4fc;--heading-charm:'🎀'}
+.bella-storefront :is(#home-collections-title,#new-arrivals-title,#home-products-title,#reels-showcase-title,#why-bella-title,#love-gallery-title,.shop-header h1):before{content:'';position:absolute;left:0;bottom:2px;width:min(70%,155px);height:8px;border-radius:70% 35% 60% 45%;background:linear-gradient(100deg,#d770a4,#f2b7d9 48%,#bd75aa);background-size:220% 100%;transform:rotate(-2deg);animation:gloss-heading-shine 7s ease-in-out infinite}
+.bella-storefront :is(#home-collections-title,#new-arrivals-title,#home-products-title,#reels-showcase-title,#why-bella-title,#love-gallery-title,.shop-header h1):after{content:var(--heading-charm);position:absolute;right:0;top:4px;font-size:25px;font-weight:400;pointer-events:none;animation:pookie-wiggle 4s ease-in-out infinite}
+.bella-storefront #new-arrivals-title{--heading-charm:'🍒'}
+.bella-storefront #home-products-title{--heading-charm:'🫧'}
+.bella-storefront #reels-showcase-title{--heading-charm:'💗'}
+.bella-storefront #love-gallery-title{--heading-charm:'🍒';font-size:clamp(28px,2.6vw,36px)}
+.bella-storefront #why-bella-title{margin-bottom:23px}
+.bella-storefront #why-bella-title:before{left:50%;transform:translateX(-50%) rotate(-2deg)}
+.bella-storefront :is(.home-collections__section-title,.home-products__heading,.reels-showcase__heading):after{display:none}
+.bella-storefront .home-new-arrivals .luxury-products__heading{align-items:center;margin-bottom:26px;gap:18px}
+.bella-storefront .new-arrivals__controls{gap:8px}
+.bella-storefront .new-arrivals__arrow{width:38px;height:38px;border:1px solid #e0b1cb;background:#fff6fb;color:#a13a6d;box-shadow:0 3px 8px #a9457310}
+.bella-storefront .new-arrivals__arrow:hover{background:#f7d9eb;border-color:#ce87af}
+@keyframes gloss-heading-shine{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+@media(max-width:767px){.bella-storefront .new-arrivals__card{flex-basis:min(76vw,310px);border-radius:20px}.bella-storefront .new-arrivals__track{gap:16px}.bella-storefront .new-arrivals__card-copy{padding:14px 5px 15px;min-height:126px}.bella-storefront .new-arrivals__card-copy h3{font-size:16px}.bella-storefront .new-arrivals__price-row{padding:12px 15px}.bella-storefront .new-arrivals__actions{top:17px;right:17px}.new-arrivals__bow{left:18px;top:15px;font-size:25px}.bella-storefront :is(#home-collections-title,#new-arrivals-title,#home-products-title,#reels-showcase-title,#why-bella-title,#love-gallery-title,.shop-header h1){font-size:29px;padding-right:31px;padding-bottom:16px}.bella-storefront :is(#home-collections-title,#new-arrivals-title,#home-products-title,#reels-showcase-title,#why-bella-title,#love-gallery-title,.shop-header h1):after{font-size:20px;top:4px}.bella-storefront :is(#home-collections-title,#new-arrivals-title,#home-products-title,#reels-showcase-title,#why-bella-title,#love-gallery-title,.shop-header h1):before{height:6px;width:min(70%,125px)}}
+@media(prefers-reduced-motion:reduce){.new-arrivals__bow,.bella-storefront :is(#home-collections-title,#new-arrivals-title,#home-products-title,#reels-showcase-title,#why-bella-title,#love-gallery-title,.shop-header h1):before,.bella-storefront :is(#home-collections-title,#new-arrivals-title,#home-products-title,#reels-showcase-title,#why-bella-title,#love-gallery-title,.shop-header h1):after{animation:none}.bella-storefront .new-arrivals__card,.bella-storefront .new-arrivals__actions button,.bella-storefront .new-arrivals__image{transition:none}.bella-storefront .new-arrivals__card:hover .new-arrivals__image,.bella-storefront .new-arrivals__card:focus-within .new-arrivals__image{transform:none}}

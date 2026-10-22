@@ -1,0 +1,3 @@
+export function sellingPrice(product){const original=Number(product?.price_cents||0),sale=product?.sale_price_cents;return sale!==null&&sale!==undefined&&Number(sale)>0&&Number(sale)<original?Number(sale):original;}
+export function hasSale(product){return sellingPrice(product)<Number(product?.price_cents||0);}
+export function parseSalePrice(originalPrice,salePrice){if(String(salePrice??'').trim()==='')return null;const original=Math.round(Number(originalPrice)*100),sale=Math.round(Number(salePrice)*100);if(!Number.isFinite(sale)||sale<=0||sale>=original)throw new Error('Sale price must be greater than zero and lower than the original price.');return sale;}

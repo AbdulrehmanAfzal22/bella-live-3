@@ -1,0 +1,113 @@
+{
+  "categories": {
+    "Glitter": "8db2b4d5-c6ea-43a9-8c71-d1ecf53d6dd3",
+    "Simple": "88e8e3f4-e87c-4ff5-a7b3-0681710d39fd"
+  },
+  "products": [
+    {
+      "id": "015a9692-80f2-4edc-8ae2-e7eff75f59c2",
+      "variant_id": "5a638ea4-b239-4fdf-a7e8-25008aed13bd",
+      "name": "Cherry Velvet Lip Gloss",
+      "category": "Simple",
+      "category_id": "88e8e3f4-e87c-4ff5-a7b3-0681710d39fd",
+      "color": "Cherry Red",
+      "color_hex": "#8e1522",
+      "description": "A rich cherry-red shade with a smooth, glossy finish. Cherry Velvet adds a bold touch of colour to your Bella beauty edit, presented in the original photograph with its white cap.",
+      "stock": 25,
+      "price_cents": 160000,
+      "sale_price_cents": null,
+      "path": "015a9692-80f2-4edc-8ae2-e7eff75f59c2/catalog.png",
+      "source": "image(20261012-112100).png"
+    },
+    {
+      "id": "73d51bc7-aab8-4a20-af86-e6222f5a790d",
+      "variant_id": "d730c5ba-065e-4c1b-bef2-ae251d00a36d",
+      "name": "Cocoa Kiss Lip Gloss",
+      "category": "Simple",
+      "category_id": "88e8e3f4-e87c-4ff5-a7b3-0681710d39fd",
+      "color": "Cocoa Brown",
+      "color_hex": "#85401f",
+      "description": "A warm cocoa-brown shade for a softly polished look. Cocoa Kiss brings an elegant, earthy tone to your beauty collection, with its original black-cap bottle and glossy swatch.",
+      "stock": 25,
+      "price_cents": 160000,
+      "sale_price_cents": null,
+      "path": "73d51bc7-aab8-4a20-af86-e6222f5a790d/catalog.png",
+      "source": "image(20261012-112109).png"
+    },
+    {
+      "id": "8fe49a83-d343-47c7-ae9b-d2a68e0384f7",
+      "variant_id": "f292ed07-e8fe-4c25-832f-8e3a7dec1553",
+      "name": "Blue Stardust Glitter Gloss",
+      "category": "Glitter",
+      "category_id": "8db2b4d5-c6ea-43a9-8c71-d1ecf53d6dd3",
+      "color": "Stardust Blue",
+      "color_hex": "#3e66b9",
+      "description": "A luminous blue shade filled with eye-catching sparkle. Blue Stardust captures the look of a little night-sky magic, beautifully shown in its original white-cap bottle.",
+      "stock": 25,
+      "price_cents": 160000,
+      "sale_price_cents": null,
+      "path": "8fe49a83-d343-47c7-ae9b-d2a68e0384f7/catalog.png",
+      "source": "image(20261012-112122).png"
+    },
+    {
+      "id": "606d8c88-3ab8-4ff2-b518-46e94ca84d82",
+      "variant_id": "8eba286d-57bb-49d4-86a2-26bef7cbe1ca",
+      "name": "Pink Crystal Glitter Gloss",
+      "category": "Glitter",
+      "category_id": "8db2b4d5-c6ea-43a9-8c71-d1ecf53d6dd3",
+      "color": "Crystal Pink",
+      "color_hex": "#d52b72",
+      "description": "A bright pink shade with a sparkling, crystal-like finish. Pink Crystal adds a playful pop of colour to your Bella collection, with a matching pink cap and glittering swatch.",
+      "stock": 25,
+      "price_cents": 160000,
+      "sale_price_cents": null,
+      "path": "606d8c88-3ab8-4ff2-b518-46e94ca84d82/catalog.png",
+      "source": "image(20261012-112129).png"
+    },
+    {
+      "id": "25dfd5ea-9c17-4226-8fab-557787710634",
+      "variant_id": "e5cfb30d-f6af-4b40-b4c1-fcf67f8e06b0",
+      "name": "Bronze Glow Glitter Gloss",
+      "category": "Glitter",
+      "category_id": "8db2b4d5-c6ea-43a9-8c71-d1ecf53d6dd3",
+      "color": "Bronze Brown",
+      "color_hex": "#995126",
+      "description": "A warm bronze-brown shade scattered with golden-looking shimmer. Bronze Glow gives your beauty edit a rich, radiant accent, shown in its original black-cap bottle.",
+      "stock": 25,
+      "price_cents": 160000,
+      "sale_price_cents": null,
+      "path": "25dfd5ea-9c17-4226-8fab-557787710634/catalog.png",
+      "source": "image(20261012-112137).png"
+    },
+    {
+      "id": "ce1cd90c-cc98-4eab-b7c9-07d4b24e0235",
+      "variant_id": "c23a8bcd-c99d-432a-a360-46f59b1d22c9",
+      "name": "Rose Veil Shimmer Gloss",
+      "category": "Glitter",
+      "category_id": "8db2b4d5-c6ea-43a9-8c71-d1ecf53d6dd3",
+      "color": "Rose Mauve",
+      "color_hex": "#a86074",
+      "description": "A soft rose-mauve shade with a delicate shimmer finish. Rose Veil offers an understated touch of sparkle, presented in the original black-cap bottle and rosy gloss swatch.",
+      "stock": 25,
+      "price_cents": 160000,
+      "sale_price_cents": null,
+      "path": "ce1cd90c-cc98-4eab-b7c9-07d4b24e0235/catalog.png",
+      "source": "image(20261012-112149).png"
+    },
+    {
+      "id": "3e3ae1d7-fab2-43f4-b6be-eba90f4a7f54",
+      "variant_id": "7ebf7a8b-b863-46b0-a608-5b81d68f39ef",
+      "name": "Blush Bloom Glitter Gloss",
+      "category": "Glitter",
+      "category_id": "8db2b4d5-c6ea-43a9-8c71-d1ecf53d6dd3",
+      "color": "Blush Pink",
+      "color_hex": "#d97fa7",
+      "description": "A gentle blush-pink shade with a dreamy sparkling finish. Blush Bloom brings a sweet touch of pink to your Bella collection, shown in its original pink-cap bottle.",
+      "stock": 25,
+      "price_cents": 160000,
+      "sale_price_cents": null,
+      "path": "3e3ae1d7-fab2-43f4-b6be-eba90f4a7f54/catalog.png",
+      "source": "image(20261012-112159).png"
+    }
+  ]
+}
