@@ -16,7 +16,6 @@ export default function ProductInfo({product,selectedVariant,children}){
     <h1 id="product-title">{product.name}</h1>
     <p className="product-info__price"><ProductPrice product={product}/></p>
     <ProductPurchaseBanner product={product}/>
-    <p className="product-info__description">{product.description}</p>
     <p className={`product-stock ${available?'product-stock--available':''}`} role="status">{available?<><Check size={15}/> In stock · Ready to ship</>:'Out of stock'}</p>
     {children}
     <div className="product-shipping-note"><Truck size={17}/><p><strong>Complimentary shipping</strong><span>Complimentary delivery on all Bella by RT orders.</span></p><ArrowUpRight size={15}/></div>

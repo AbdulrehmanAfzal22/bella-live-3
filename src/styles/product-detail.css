@@ -56,6 +56,7 @@
 .product-shipping-note strong{color:var(--color-charcoal);font-weight:500}
 .product-shipping-note span{color:var(--color-muted)}
 .product-accordion{margin-top:8px}
+.product-accordion .product-description{white-space:pre-line;overflow-wrap:anywhere}
 .product-accordion details{margin:0!important;padding:0!important;border:0!important;border-bottom:1px solid var(--color-border)!important}
 .product-accordion summary{display:flex;min-height:55px;align-items:center;justify-content:space-between;gap:15px;list-style:none;color:var(--color-charcoal);font:500 11px/1.4 var(--font-body)}
 .product-accordion summary::-webkit-details-marker{display:none}
